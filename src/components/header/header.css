@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(19, 152, 178);
+  min-height: 64px;
+  align-items: center;
+  color: white;
+  font-family: "Dancing Script";
+}
+
+.pocetna,
+.komentari,
+.np-dropdown {
+  margin: 0px 10px;
+  padding: 0px 10px;
+  font-size: 24px;
+}
+
+.pocetna:hover,
+.komentari:hover,
+.np-dropdown:hover {
+  cursor: pointer;
+  border-left: 2px solid rgb(21, 125, 194);
+  border-right: 2px solid rgb(21, 125, 194);
+  margin: 0px 8px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  width: 100%;
+  padding: 12px 16px;
+  background-color: rgb(19, 152, 178);
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.np-item {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.np-item:hover {
+  cursor: pointer;
+}
